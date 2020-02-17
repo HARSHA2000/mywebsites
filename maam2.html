@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body {
+ /* background-color: #fffdd0;*/
+  height: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  font-family: Arial;
+}
+.header {
+  max-width: 600px;
+  background: rgba(255,255,255,.0);
+  box-shadow: 0 5px 15px rgba(0,0,0,0);
+  color: black;
+  padding: 3px;
+  margin-bottom: 20px;
+}
+.buttons {
+  max-width: 1200px;
+  background: rgba(255,255,255,.0);
+  box-shadow: 0 5px 15px rgba(0,0,0,.0);
+  color: black;
+/*  padding: 40px;*/
+  margin-bottom: 20px;
+}
+/* Style tab links */
+.tablink {
+  background: rgba(255,255,255,.0);
+  box-shadow: 0 5px 15px rgba(0,0,0,.0);
+  color: black;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border: 3px 3px;
+  border-radius: 10px;
+  outline: 3px 3px;
+  cursor: pointer;
+  padding: 4px 4px;
+  font-size: 17px;
+  width: 20%;
+}
+.tablink1 {
+  background: rgba(255,255,255,.0);
+  box-shadow: 0 5px 15px rgba(0,0,0,.0);
+  color: black;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border: 3px 3px;
+  border-radius: 10px;
+  outline: 3px 3px;
+  cursor: pointer;
+  padding: 4px 4px;
+  font-size: 17px;
+  width: 20%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  background: rgba(255,255,255,.0);
+  box-shadow: 0 5px 15px rgba(0,0,0,.0);
+  color: black;
+  display: none;
+  padding: 70px 40px; 
+  height: 100%;
+}
+.left {
+  float: left;
+}
+.priority {
+  text-align: center;
+  margin: auto;
+  clear: both; 
+}
+/*div {
+  border-width: 1px;
+  border-style: dashed;
+}
+*/
+#about me 
+#qualification 
+#professional experience 
+#publications patents 
+#awards 
+#areas of expertise
+#professional links 
+#contact me
+#reff1
+#reff2
+#reff3 
+</style>
+</head>
+<body background="C:\xampp\htdocs\i10.jpg" >
+    <img class="left" src="C:\Users\Harsha Mathad\Downloads\p11.png" width="70" height="70">
+    <div class="header">
+      <h1> Gayathri K M </h1>
+    </div>
+    <div id="button" class="priority">
+      <button class="tablink1" onclick="openPage('about me')">about me</button>
+      <button class="tablink" onclick="openPage('qualification')" id="defaultOpen">qualification</button>
+      <button class="tablink1" onclick="openPage('professional experience')">professional experience</button>
+      <button class="tablink" onclick="openPage('publications patents')">publications patents</button>
+      <button class="tablink1" onclick="openPage('awards')">awards</button>
+      <button class="tablink" onclick="openPage('areas of expertise')">areas of expertise</button>
+      <button class="tablink1" onclick="openPage('professional links')">professional links</button>
+      <button class="tablink" onclick="openPage('contact me')">contact me</button>
+    </div> 
+      <div id="about me" class="tabcontent">
+        <h3>Gayathri K M</h3>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.#l Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div id="qualification" class="tabcontent">
+        <h3>qualifications</h3>
+        <p></p> 
+      </div>
+      <div id="professional experience" class="tabcontent">
+        <h3>experience</h3>
+        <p></p>
+      </div>
+      <div id="publications patents" class="tabcontent">
+        <h3>patents</h3>
+        <p></p>
+      </div>
+      <div id="awards" class="tabcontent">
+        <h3>awards</h3>
+        <p></p>
+      </div>
+      <div id="areas of expertise" class="tabcontent">
+        <h3>areas of expertise</h3>
+        <p></p>
+      </div>
+      <div id="professional links" class="tabcontent">
+        <h3>professional links</h3>
+        <p></p>
+      </div>
+      <div id="contact me" class="tabcontent">
+        <h3>contact me</h3>
+        <p></p>
+      </div>
+    <div id="footer" class="foot">
+<!--       <button class="tablink" onclick="openPage('reff1')">reff1</button>
+      <button class="tablink" onclick="openPage('reff2')">reff2</button>
+      <button class="tablink" onclick="openPage('reff3')">reff3</button>
+      
+      <div id="reff1" class="tabcontent">
+        <h3>Gayathri K M</h3>
+      </div>
+      <div id="reff2" class="tabcontent">
+        <h3>Gayathri K M</h3>
+      </div>
+      <div id="reff3" class="tabcontent">
+        <h3>Gayathri K M</h3>
+      </div> -->
+    	<a href="">twitter</a>
+    	<a href="">facebook</a>
+    	<a href="">instagram</a>
+    	
+    </div>
+  <script>
+  function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+  }
+
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+  </script>
+     
+</body>
+</html> 
